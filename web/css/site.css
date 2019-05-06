@@ -95,6 +95,26 @@ a.desc:after {
     padding: 15px;
     border: none;
 }
+.navbar {
+    background-color:#337ab7;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+.navbar-brand{
+    color:white !important;
+}
+#w1>li>a{
+    color: white !important;
+}
+#w2>li>a{
+    color: white !important;
+}
+#w3>li>a{
+    color: white !important;
+}
+#w4>li>a{
+    color: white !important;
+}
 
 @media(max-width:767px) {
     .nav li > form > button.logout {
@@ -112,4 +132,14 @@ a.desc:after {
 
 .nav > li > form > button.logout:focus {
     outline: none;
+}
+
+.vcenter{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+#imagen-back{
+    background: url(https://www.netkia.es/wp-content/uploads/2018/12/libros-sobre-programacion.jpg);
 }
